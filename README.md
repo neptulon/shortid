@@ -13,10 +13,10 @@ import (
 )
 
 func main() {
-	id, err := ID(64)
+	id, err := shortid.ID(64)
 	// id: XOga_Cq2h-8
 
-	uuid, err := UUID()
+	uuid, err := shortid.UUID()
 	// uuid: gK_qBTwDH5i31evhbD-Wvw
 }
 ```
